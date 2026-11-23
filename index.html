@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>My Website Template</title>
+
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+
+    <div class="main-container">
+
+        <!-- HEADER -->
+
+        <header>
+
+            <div class="logo">
+                YOUR <span>logo</span>
+            </div>
+
+            <nav>
+                <a href="#" class="active">Home</a>
+                <a href="#">Pages</a>
+                <a href="#">Feature</a>
+                <a href="#">Services</a>
+                <a href="#">Blog</a>
+                <a href="#">Contact</a>
+            </nav>
+
+        </header>
+
+
+        <!-- HERO SLIDER -->
+
+        <section class="hero">
+
+            <button class="arrow left" onclick="changeSlide(-1)">
+                ❮
+            </button>
+
+            <div class="hero-content">
+
+                <div class="hero-image">
+                    <img id="heroImage"
+                    src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=600"
+                    alt="Website design">
+                </div>
+
+                <div class="hero-text">
+
+                    <h1 id="heroTitle">
+                        AWESOME WEBSITE TEMPLATE
+                    </h1>
+
+                    <p id="heroDescription">
+                        Lorem ipsum dolor sit amet, consectetur
+                        adipisicing elit, sed do eiusmod tempor.
+                    </p>
+
+                </div>
+
+            </div>
+
+            <button class="arrow right" onclick="changeSlide(1)">
+                ❯
+            </button>
+
+            <div class="dots">
+
+                <span class="dot active" onclick="goToSlide(0)"></span>
+
+                <span class="dot" onclick="goToSlide(1)"></span>
+
+                <span class="dot" onclick="goToSlide(2)"></span>
+
+            </div>
+
+        </section>
+
+
+        <!-- MAIN HEADING -->
+
+        <section class="heading">
+
+            <h2>Create Your Own Genuine Web Masterpiece</h2>
+
+            <p>
+                Lorem Ipsum is simply dummy text of the printing
+                and typesetting industry.
+            </p>
+
+        </section>
+
+
+        <!-- IMAGE CARDS -->
+
+        <section class="cards">
+
+            <div class="card">
+
+                <img src="https://images.unsplash.com/photo-1497366754035-f200968a6e72?w=400">
+
+                <h3>Awesome title</h3>
+
+            </div>
+
+
+            <div class="card">
+
+                <img src="https://images.unsplash.com/photo-1497366811353-6870744d04b2?w=400">
+
+                <h3>Awesome title</h3>
+
+            </div>
+
+
+            <div class="card">
+
+                <img src="https://images.unsplash.com/photo-1497366216548-37526070297c?w=400">
+
+                <h3>Awesome title</h3>
+
+            </div>
+
+
+            <div class="card">
+
+                <img src="https://images.unsplash.com/photo-1497366412874-3415097a27e7?w=400">
+
+                <h3>Awesome title</h3>
+
+            </div>
+
+        </section>
+
+
+        <!-- VIDEO AND TESTIMONIALS -->
+
+        <section class="content">
+
+            <!-- VIDEO TOUR -->
+
+            <div class="video-section">
+
+                <h2>Video Tour</h2>
+
+              <div class="video-box">
+
+    <video id="myVideo" controls poster="https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=600">
+
+        <source src="video.mp4" type="video/mp4">
+
+        Your browser does not support video.
+
+    </video>
+
+</div>
+  
+
+            <!-- TESTIMONIALS -->
+
+            <div class="testimonial-section">
+
+                <div class="testimonial-heading">
+
+                    <h2>Testimonials</h2>
+
+                    <div class="review-buttons">
+
+                        <button onclick="changeReview(-1)">❮</button>
+
+                        <button onclick="changeReview(1)">❯</button>
+
+                    </div>
+
+                </div>
+
+
+                <div class="testimonial-container">
+
+                    <div class="testimonial-track" id="reviewTrack">
+
+
+                        <div class="testimonial">
+
+                            <div class="customer">
+
+                                <img src="https://i.pravatar.cc/100?img=47">
+
+                                <div>
+                                    <h3>Lisa Johnson</h3>
+                                    <span>Manager</span>
+                                </div>
+
+                            </div>
+
+                            <div class="stars">★★★★★</div>
+
+                            <p>
+                                Lorem ipsum has been the industry's
+                                standard dummy text ever since the
+                                1500s. It has survived for many years.
+                            </p>
+
+                        </div>
+
+
+                        <div class="testimonial">
+
+                            <div class="customer">
+
+                                <img src="https://i.pravatar.cc/100?img=12">
+
+                                <div>
+                                    <h3>Eva Fry</h3>
+                                    <span>Designer</span>
+                                </div>
+
+                            </div>
+
+                            <div class="stars">★★★★★</div>
+
+                            <p>
+                                Lorem ipsum has been the industry's
+                                standard dummy text ever since the
+                                1500s. It has survived for many years.
+                            </p>
+
+                        </div>
+
+
+                        <div class="testimonial">
+
+                            <div class="customer">
+
+                                <img src="https://i.pravatar.cc/100?img=33">
+
+                                <div>
+                                    <h3>John Smith</h3>
+                                    <span>Developer</span>
+                                </div>
+
+                            </div>
+
+                            <div class="stars">★★★★★</div>
+
+                            <p>
+                                Lorem ipsum has been the industry's
+                                standard dummy text ever since the
+                                1500s. It has survived for many years.
+                            </p>
+
+                        </div>
+
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- PARTNERS -->
+
+        <h2>OUR PARTNERS</h2>
+
+<div class="partner-slider">
+
+    <div class="partner-track">
+
+        <div class="partner">
+            <small>PARTNER'S</small>
+            <h2>LOGO</h2>
+        </div>
+
+        <div class="partner">
+            <small>PARTNER'S</small>
+            <h2>LOGO</h2>
+        </div>
+
+        <div class="partner">
+            <small>PARTNER'S</small>
+            <h2>LOGO</h2>
+        </div>
+
+        <div class="partner">
+            <small>PARTNER'S</small>
+            <h2>LOGO</h2>
+        </div>
+
+        <div class="partner">
+            <small>PARTNER'S</small>
+            <h2>LOGO</h2>
+        </div>
+
+        <div class="partner">
+            <small>PARTNER'S</small>
+            <h2>LOGO</h2>
+        </div>
+
+    </div>
+
+</div>
+
+
+        <!-- FOOTER -->
+
+        <footer>
+
+            <div class="footer-box">
+
+                <h3>ABOUT US</h3>
+
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur
+                    adipisicing elit. Sed do eiusmod tempor
+                    incididunt ut labore et dolore magna aliqua.
+                    Ut enim ad minim veniam.
+                </p>
+
+            </div>
+
+
+            <div class="footer-box">
+
+                <h3>QUICK LINKS</h3>
+
+                <a href="#">➤ ALLERS AND STUDIOS</a>
+
+                <a href="#">➤ CUSTOM SHORTCODES</a>
+
+                <a href="#">➤ PRICING PLANS</a>
+
+                <a href="#">➤ GOOGLE ELEMENTS</a>
+
+                <a href="#">➤ TYPOGRAPHY</a>
+
+            </div>
+
+
+            <div class="footer-box">
+
+                <h3>GET IN TOUCH</h3>
+
+                <p>📍 64th Street, New York, USA</p>
+
+                <p>📞 +91 9876543210</p>
+
+                <p>✉ info@example.com</p>
+
+                <p>🌐 www.example.com</p>
+
+            </div>
+
+        </footer>
+
+
+    </div>
+
+
+    <script src="index.js"></script>
+
+</body>
+
+</html>

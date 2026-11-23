@@ -1,0 +1,49 @@
+.container{
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 30px;
+}
+
+.box{
+    
+    text-align: center;
+    color: black;
+    padding: 20px;
+    margin-top: 20px;
+    border:3px
+     
+}
+.box1{
+    background-color: beige;    
+}
+.box2{
+    background-color: blue;
+}
+.box3{
+    background-color: blueviolet;
+}
+.box4{
+    background-color: brown;
+}
+.box5{
+    background-color: chartreuse;
+}  
+.box6{
+    background-color: black;
+}  
+.box7{
+    background-color: aquamarine;
+}
+.box8{
+    background-color: antiquewhite;
+}
+.box9{
+    background-color: aqua;
+}
+.box10{
+    background-color:powderblue
+}
+
+
+
+

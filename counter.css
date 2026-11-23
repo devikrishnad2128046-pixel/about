@@ -1,0 +1,31 @@
+.body {
+    background-color: rgb(64, 139, 57);
+    font-family: Arial;
+    text-align: center;
+}
+
+.container {
+    background: rgb(129, 55, 55);
+    width: 300px;
+    margin: 150px auto;
+    padding: 30px;
+    border-radius: 15px;
+}
+
+h1 {
+    color: blue;
+}
+
+h2 {
+    font-size: 50px;
+}
+
+.button {
+    padding: 12px 20px;
+    margin: 5px;
+    background-color: blue;
+    color: rgb(22, 31, 51);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
